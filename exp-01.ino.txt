@@ -1,0 +1,30 @@
+// Define the pin number for the button
+#define BUTTON_PIN 2
+
+// Define the pin number for the LED
+#define LED_PIN 13
+
+// Define a variable to store the button state
+int buttonState = 0;
+
+void setup() {
+  // Set the button pin as input with internal pull-up resistor
+  pinMode(BUTTON_PIN, INPUT_PULLUP);
+
+  // Set the LED pin as output
+  pinMode(LED_PIN, OUTPUT);
+}
+
+void loop() {
+  // Read the button state
+  buttonState = digitalRead(BUTTON_PIN);
+
+  // If the button is pressed, turn on the LED
+  if (buttonState == LOW) {
+    digitalWrite(LED_PIN, HIGH);
+  }
+  // Otherwise, turn off the LED
+  else {
+    digitalWrite(LED_PIN, LOW);
+  }
+}
