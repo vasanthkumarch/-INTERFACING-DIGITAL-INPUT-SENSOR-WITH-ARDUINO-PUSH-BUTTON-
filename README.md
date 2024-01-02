@@ -31,7 +31,7 @@ Flash Memory	16 KB (ATmega168) or 32 KB (ATmega328) of which 2 KB used by boot l
 SRAM	1 KB (ATmega168) or 2 KB (ATmega328)
 EEPROM	512 bytes (ATmega168) or 1 KB (ATmega328)
 Clock Speed	16 MHz
-PIN DIAGRAM FOR ATMEGA 328
+## PIN DIAGRAM FOR ATMEGA 328
  
 ![image](https://user-images.githubusercontent.com/36288975/163530394-115baee4-7ed1-49fe-9cce-d7b625e11e85.png)
 
@@ -41,7 +41,7 @@ FIGURE-01
 
 
 FIGURE-02
-PROCEDURE 
+## PROCEDURE 
  Open tinker cad account 
 1.	Select Arduino uno , bread board , digital input and digital output 
 2.	Connect the circuit as given in the figure 
@@ -56,7 +56,7 @@ PROCEDURE
 
 
 
-CIRCUIT DIAGRAM 
+## CIRCUIT DIAGRAM 
 
 
 
@@ -72,7 +72,7 @@ FIGURE -03
 
 
 
-PROGRAM 
+## PROGRAM 
  
  
  
@@ -81,7 +81,7 @@ PROGRAM
 
 
 
-Output of the simulation :
+## OUTPUT OF SIMULATION :
 
 [My image](username.github.com/repository/img/image.jpg)
 
