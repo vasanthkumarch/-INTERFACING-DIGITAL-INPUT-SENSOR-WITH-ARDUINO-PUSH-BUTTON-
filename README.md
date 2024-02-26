@@ -1,8 +1,11 @@
-## INTERFACING DIGITAL INPUT SENSOR WITH ARDUINO PUSH BUTTON
-## DATE :
-## NAME :																			             
-## ROLLNUMBER :
-## DEPARTMENT 
+INTERFACING DIGITAL INPUT SENSOR WITH ARDUINO PUSH BUTTON
+
+ DATE : 21/02/2024
+ 
+ NAME : PREMJI P																			             
+ ROLLNUMBER : 212221043004
+ 
+ DEPARTMENT :COMPUTER SCIENCE ENGINEERING
 
 
 ## AIM:
@@ -61,7 +64,34 @@ FIGURE -03
 
 
 
-## PROGRAM 
+PROGRAM 
+// C++ code
+int led=3;
+int pushbutton=4;
+
+void setup()
+{
+  pinMode(led, OUTPUT);
+  pinMode(pushbutton,INPUT);
+}
+
+void loop()
+{
+  int pb;
+  pb=digitalRead(pushbutton);
+  if(pb==HIGH)
+  {
+    digitalWrite(led,HIGH);
+    delay(500);
+    digitalWrite(led,LOW);
+    delay(500);
+  }
+  else
+  {
+    digitalWrite(led,LOW);
+    delay(500);
+  }
+}
  
  
 
@@ -79,7 +109,17 @@ FIGURE -03
 
 
 
-## OUTPUT OF SIMULATION :
+ OUTPUT OF SIMULATION :
+ ![Screenshot (38)](https://github.com/vasanthkumarch/-INTERFACING-DIGITAL-INPUT-SENSOR-WITH-ARDUINO-PUSH-BUTTON-/assets/143831886/370e045b-01b7-4a47-afd5-f852f7ad30a7)
 
-[My image](username.github.com/repository/img/image.jpg)
+ ![Screenshot (40)](https://github.com/vasanthkumarch/-INTERFACING-DIGITAL-INPUT-SENSOR-WITH-ARDUINO-PUSH-BUTTON-/assets/143831886/46bc7872-65d2-4f84-98f7-7e66747cd48f)
+
+ ![Screenshot (39)](https://github.com/vasanthkumarch/-INTERFACING-DIGITAL-INPUT-SENSOR-WITH-ARDUINO-PUSH-BUTTON-/assets/143831886/3ed7c94b-2156-4c14-8a93-6a737d94e14a)
+
+RESULT:
+Thus,The circut was exicute sucessfly.
+
+
+
+
 
